@@ -14,21 +14,21 @@
     padding: 20px 0;
     font-size: 20px;
   }
-  .item1 {
+  .hero-header {
     grid-column: 1 / span 2;
     grid-row: 1;
     margin-top: 2rem;
   }
   
-  .item2 {
+  .hero-header2 {
     grid-column: 1 / span 2;
     grid-row: 2;
   }
-  .item3 {
+  .hero-button {
     grid-column: 1 / span 2;
     grid-row: 3;
   }
-  .item4 {
+  .hero-avtar {
     grid-column: 1 / span 2;
     grid-row: 4;
     display: flex;
@@ -36,11 +36,11 @@
     gap: 1.6rem;
   }
   
-  .item5 {
+  .hero-image {
     grid-column: 3 / span 2;
     grid-row: 1 / span 4;
   }
-  .item5 > img {
+  .hero-image > img {
     height: 700px;
     width: 600px;
     padding-right: 50px;
@@ -101,7 +101,6 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-  
     margin: 20px;
   }
   
@@ -112,4 +111,3 @@
     background-color: #34704a;
     color: wheat;
   }
-  
